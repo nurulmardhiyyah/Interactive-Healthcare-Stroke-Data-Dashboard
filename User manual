@@ -1,0 +1,77 @@
+Healthcare Stroke Data Dashboard - User Manual
+Introduction
+Welcome to the Healthcare Stroke Data Dashboard! This interactive tool allows you to explore and analyze a dataset related to stroke prediction. You can filter the data based on various criteria and view dynamic summaries, frequency tables, and visualizations.
+
+1. Getting Started
+After launching the application (refer to README.md for instructions), you will see the main dashboard interface.
+
+[Screenshot 1: Overall App Layout - Sidebar and Main Panel]
+
+2. Navigating the Dashboard
+The dashboard is divided into two main sections:
+
+Sidebar (Left Panel): This panel contains all the interactive filters you can use to refine the dataset.
+
+Main Panel (Right Panel): This panel displays the outputs, organized into different tabs.
+
+3. Using the Filters (Sidebar)
+In the left sidebar, you will find three main filtering options:
+
+3.1. Filter by Gender
+Purpose: Select to view data for specific genders (Male, Female, Other) or all genders.
+
+How to Use: Click on the dropdown menu labeled "1. Filter by Gender:" and choose your desired option.
+
+[Screenshot 2: Gender Filter Dropdown]
+
+3.2. Filter by Age Range
+Purpose: Select a specific age range to include in your analysis.
+
+How to Use: Drag the sliders on the "2. Filter by Age Range:" bar to set the minimum and maximum age.
+
+[Screenshot 3: Age Range Slider]
+
+3.3. Filter by Smoking Status
+Purpose: Filter the data based on the patient's smoking habits.
+
+How to Use: Click on the dropdown menu labeled "3. Filter by Smoking Status:" and select from options like "never smoked", "formerly smoked", "smokes", or "All".
+
+[Screenshot 4: Smoking Status Filter Dropdown]
+
+4. Exploring the Data (Main Panel Tabs)
+The main panel has three tabs, each presenting a different view of the filtered data:
+
+4.1. Summary Statistics Tab
+Purpose: Displays a comprehensive statistical summary of the dataset based on your current filters. This includes basic descriptive statistics for numerical variables (e.g., age, BMI) and frequency counts for categorical variables.
+
+How to Use: Click on the "Summary Statistics" tab.
+
+[Screenshot 5: Summary Statistics Tab Content]
+
+4.2. Stroke Frequency & Distribution Tab
+Purpose: This tab provides insights into stroke occurrences within your filtered data.
+
+Stroke Occurrence Frequency: Shows the raw count of "Yes" and "No" stroke cases.
+
+Proportion of Stroke by Age Group: A bar chart illustrating the percentage of stroke cases within each age group. This helps visualize how age correlates with stroke risk.
+
+How to Use: Click on the "Stroke Frequency & Distribution" tab.
+
+[Screenshot 6: Stroke Frequency Table and Bar Chart]
+
+4.3. Interactive Data Table Tab
+Purpose: Presents the filtered raw data in an interactive table format. You can sort columns, search for specific values, and navigate through pages of data.
+
+How to Use: Click on the "Interactive Data Table" tab. Use the search bar, column headers for sorting, and pagination controls at the bottom of the table.
+
+[Screenshot 7: Interactive Data Table]
+
+5. Downloading Filtered Data
+Purpose: If you wish to perform further analysis outside of this dashboard, you can download the currently filtered dataset.
+
+How to Use: In the sidebar, click the "Download Filtered Data (.csv)" button. A CSV file containing your filtered data will be downloaded to your computer.
+
+[Screenshot 8: Download Button]
+
+Conclusion
+This dashboard is a powerful tool for initial data exploration. Experiment with different filter combinations to uncover interesting patterns and relationships within the stroke dataset.
